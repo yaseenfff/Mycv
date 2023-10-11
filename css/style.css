@@ -27,7 +27,8 @@
                 
                 header nav {
                     padding: 1rem;
-                    background: #eee;
+                    /* background: #eee; */
+                    background: #078fc0;
                     display: flex;
                     flex-flow: nowrap row;
                     align-items: center;
@@ -35,7 +36,7 @@
                 }
                 
                 header nav h1 {
-                    color: #03b9fb;
+                    color: #fff;
                     text-shadow: 0.3rem 0.2rem 0.3rem #fff;
                     text-align: center;
                     margin-right: 0.3rem;
@@ -214,6 +215,7 @@
                 main .container .section_2 div {
                     align-items: flex-end;
                 }
+                /* end code section_2 */
                 /* start code section_5 */
                 
                 main .container .section_5 div {
@@ -451,6 +453,9 @@
                     }
                     main .container section .tit {
                         font-size: 1rem;
+                    }
+                    main .container .section_7 div label::before {
+                        top: -45%;
                     }
                     main .container .section_8 div,
                     .section_5 div,
