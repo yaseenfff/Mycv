@@ -149,7 +149,7 @@
                 align-self: center;
                 direction: rtl;
                 line-height: 1.3rem;
-                color: #0fbbfa;
+                color: #14e;
                 padding: 0.1rem;
             }
             
@@ -189,7 +189,7 @@
             main .container .section_1 .div_text {
                 display: flex;
                 flex-flow: wrap column;
-                justify-content: space-evenly;
+                justify-content: center;
                 width: 60%;
                 align-items: center;
             }
@@ -199,6 +199,7 @@
                 color: #03b5fb;
                 font-size: 1.5rem;
                 text-align: center;
+                margin-bottom: 0.4rem;
             }
             
             main .container .section_1 .div_text p {
@@ -208,6 +209,7 @@
                 direction: rtl;
                 color: rgb(6, 84, 254);
                 font-size: 1.3rem;
+                margin-top: 0.4rem;
             }
             /* end code section_1 */
             /* start code section_2 */
@@ -322,11 +324,11 @@
             
             main .container .section_10 div a {
                 cursor: pointer;
-                padding: 0.1rem;
+                padding: 0.2rem;
                 color: #fff;
                 background: #03a0d9;
                 width: 3.2rem;
-                border: 0.2rem solid transparent;
+                border: 0.1rem solid transparent;
                 outline: none;
                 border-radius: 0.2rem;
                 font-weight: bold;
@@ -334,10 +336,6 @@
                 align-self: center;
                 text-decoration: none;
                 text-align: center;
-            }
-            
-            main .container .section_10 div a:hover {
-                border: 0.2rem solid #999;
             }
             
             main .container .section_10 span {
@@ -380,7 +378,11 @@
                 margin-left: 0.5rem;
                 margin-right: 0.5rem;
                 cursor: pointer;
-                color: #03b9fb;
+                color: #50d0ff;
+            }
+            
+            footer .container .cell a:hover {
+                color: #fff;
             }
             
             footer .container .allrights label {
